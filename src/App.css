@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+img:hover {
+  opacity: 0.5;
+}
+
+.Nav-Link:hover{
+  background-color: #f4d03f;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,13 +23,18 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-content{
+  text-align: center;
+
 }
 
 .App-link {
