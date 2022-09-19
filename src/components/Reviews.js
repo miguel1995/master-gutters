@@ -109,12 +109,12 @@ class Reviews extends Component {
                                     <Rating onScore={this.handleScore} />
 
                                     <br />
-                                    <Button variant="warning" type="submit" onClick={this.handleSubmit}>
-                                        Submit
-                                    </Button>
+                                   
                                     
                                 </Form>
-                                
+                                <Button variant="warning" type="submit" onClick={this.handleSubmit}>
+                                        Submit
+                                    </Button>
                                 
                            
 
@@ -218,10 +218,14 @@ async function addComentario(newComment) {
     try {
         const docRef = await addDoc(collection(db, "comentarios"), newComment);
         console.log("Document written with ID: ", docRef.id);
+        alert("Comment sent");
+
 
     } catch (e) {
 
         console.error("Error adding document: ", e);
+        alert("Error. Try Again");
+
     }
 
 }
