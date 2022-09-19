@@ -13,15 +13,15 @@ class Service2 extends Component {
                     <Row>
                         <Col md={3}>
 
-                            <img src="/images/img1.jpg"
+                            <img src="/images/covers_5.jpeg"
 
-                                style={{ width: "100%" }} alt="gutter covers in marietta" />
+                                style={{ width: "100%", paddingTop:"1rem"}} alt="gutter covers in marietta" />
 
-                            <img src="/images/img1.jpg"
-                                style={{ width: "100%" }} alt="gutter covers in marietta" />
+                            <img src="/images/covers_1.jpeg"
+                                style={{ width: "100%", paddingTop:"1rem"}} alt="gutter covers in marietta" />
 
-                            <img src="/images/img1.jpg"
-                                style={{ width: "100%" }} alt="gutter covers in marietta" />
+                            <img src="/images/covers_4.jpeg"
+                                style={{ width: "100%", paddingTop:"1rem"}} alt="gutter covers in marietta" />
                         </Col>
                         <Col md={6}>
 
@@ -49,15 +49,15 @@ class Service2 extends Component {
                         </Col>
                         <Col md={3}>
 
-                            <img src="/images/img1.jpg"
+                            <img src="/images/covers_6.jpeg"
 
-                                style={{ width: "100%" }} alt="gutter covers in marietta" />
+                                style={{ width: "100%", paddingTop:"1rem"}} alt="gutter covers in marietta" />
 
-                            <img src="/images/img1.jpg"
-                                style={{ width: "100%" }} alt="gutter covers in marietta" />
+                            <img src="/images/covers_3.jpeg"
+                                style={{ width: "100%", paddingTop:"1rem"}} alt="gutter covers in marietta" />
 
-                            <img src="/images/img1.jpg"
-                                style={{ width: "100%" }} alt="gutter covers in marietta" />
+                            <img src="/images/covers_2.jpeg"
+                                style={{ width: "100%", paddingTop:"1rem"}} alt="gutter covers in marietta" />
                         </Col>
 
                     </Row>

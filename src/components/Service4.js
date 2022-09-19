@@ -34,12 +34,12 @@ class Service4 extends Component {
 
             </Col>
             <Col md={3}>
-                <img src="/images/img1.jpg" 
-                style={{ width: "100%" }}
-                alt="before soffit installation"/>
-                <img src="/images/img1.jpg" 
-                style={{ width: "100%" }}
-                alt="before soffit installation"/>
+                <img src="/images/soffit_2.jpeg" 
+                    style={{ width: "100%", paddingTop:"1rem" }}
+                    alt="before soffit installation"/>
+                <img src="/images/soffit_1.jpeg" 
+                    style={{ width: "100%", paddingTop:"1rem" }}
+                    alt="before soffit installation"/>
 
 
             </Col>

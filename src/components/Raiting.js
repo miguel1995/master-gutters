@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
-import { Container, Radio, Rating } from "./RaitingStyles";
+import {  Radio, Rating } from "./RaitingStyles";
 const Rate = (props) => {
     var valueState = 0;
    
     
-    if(props["initial"] != undefined  && props["initial"] != null ){
+    if(props["initial"] !== undefined  && props["initial"] !== null ){
         valueState = parseInt(props["initial"]);
        
 
@@ -33,7 +33,7 @@ const Rate = (props) => {
 
                                 setRate(givenRating);
 
-                                if(props["onScore"] != undefined  ){
+                                if(props["onScore"] !== undefined  ){
                                     props.onScore(givenRating);
                                 }
 

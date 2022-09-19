@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { collection, getDocs, addDoc, onSnapshot, doc, query } from "firebase/firestore";
+import { collection, getDocs, addDoc } from "firebase/firestore";
 import db from '../firebase';
 import { Card, Col, Container, Row, Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';

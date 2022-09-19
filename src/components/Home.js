@@ -27,7 +27,7 @@ class Home extends Component {
                             >
                                 <img
                                     className="d-block w-100"
-                                    src="images/img1.jpg"
+                                    src="images/home1.jpeg"
                                     alt="First slide"
                                     height={500}
 
@@ -35,7 +35,8 @@ class Home extends Component {
                                 <Carousel.Caption style={{
 
 
-                                    top: '50%', transform: 'translateY(-50%)', fontWeight: 'bold'
+                                    top: '50%', transform: 'translateY(-50%)', fontWeight: 'bold',
+                                    backgroundColor: "rgba(0, 0, 0, 0.4)"
                                 }}>
                                     <h1>MASTER GUTTERS</h1>
                                     <p>Call today at 770-203-5897 to request a free estimate on gutters, gutter covers, fascia or soffit replacements.</p>
@@ -52,7 +53,7 @@ class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="images/img2.jpg"
+                                    src="images/home2.jpeg"
                                     alt="Second slide"
                                     height={500}
                                 />
@@ -60,7 +61,9 @@ class Home extends Component {
                                 <Carousel.Caption style={{
 
 
-                                    top: '50%', transform: 'translateY(-50%)', fontWeight: 'bold'
+                                    top: '50%', transform: 'translateY(-50%)', fontWeight: 'bold',
+                                    backgroundColor: "rgba(0, 0, 0, 0.4)"
+
                                 }}>
                                     <h1>MASTER GUTTERS</h1>
                                     <p>Call today at 770-203-5897 to request a free estimate on gutters, gutter covers, fascia or soffit replacements.</p>
@@ -76,7 +79,7 @@ class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="images/img1.jpg"
+                                    src="images/home3.jpeg"
                                     alt="Third slide"
                                     height={500}
 
@@ -85,7 +88,9 @@ class Home extends Component {
                                 <Carousel.Caption style={{
 
 
-                                    top: '50%', transform: 'translateY(-50%)', fontWeight: 'bold'
+                                    top: '50%', transform: 'translateY(-50%)', fontWeight: 'bold',
+                                    backgroundColor: "rgba(0, 0, 0, 0.4)"
+
                                 }}>
 
                                     <h1>MASTER GUTTERS</h1>
@@ -156,7 +161,7 @@ class Home extends Component {
                                     <p style={{ fontSize: '0.6rem' }}>TIRED OF CLEANING YOUR GUTTERS</p>
 
 
-                                    <Card.Img variant="outline-dark" src="images/img1.jpg" />
+                                    <Card.Img variant="outline-dark" src="images/home_services_2.jpeg" />
                                     <Card.Body>
                                         <Card.Text>
                                             Protect your gutters from excessive debris and avoid frequent cleanings... Lalo's Gutters offers several options for you to choose from...
@@ -178,7 +183,7 @@ class Home extends Component {
                                     <p style={{ fontSize: '0.6rem' }}>REPAIRS OR NEW INSTALLATIONS.</p>
 
 
-                                    <Card.Img variant="outline-dark" src="images/img1.jpg" />
+                                    <Card.Img variant="outline-dark" src="images/home_services_3.jpeg" />
                                     <Card.Body>
                                         <Card.Text>
                                             Whether your old soffit is rotten; whether is a small area or new installations, Master Gutters has you covered...
@@ -202,7 +207,7 @@ class Home extends Component {
                                     </p>
 
 
-                                    <Card.Img variant="outline-dark" src="images/img1.jpg" />
+                                    <Card.Img variant="outline-dark" src="images/home_services_4.jpeg" />
                                     <Card.Body>
                                         <Card.Text>
                                             The gutters are made to measure and they are cut right on your property for a perfect fit.
@@ -243,8 +248,144 @@ class Home extends Component {
                     </Col>
 
                 </Row>
+                <Row style={{ border: '10rem' }}>
 
-                <div  style={{position: 'fixed', top: '50%', right: 0}}>
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (1).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (4).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (6).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (9).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (2).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (3).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                   
+
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (7).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (8).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (10).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (12).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                   
+   
+                    
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (16).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (17).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (18).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+
+                    
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (15).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (21).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (22).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (23).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (24).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (25).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (26).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (27).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (28).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                    <Col md={3}>
+                        <img src="/images/gallery/footer (29).jpeg"
+                            style={{ width: "100%", paddingTop: "1rem" }}
+                            alt="gallery" />
+                    </Col>
+                </Row>
+
+
+
+                <div style={{ position: 'fixed', top: '50%', right: 0 }}>
                     <a href="https://wa.me/+17702035897/?text=Hello%20*Master%20Gutters*.%20I%20am%20interested%20in%20acquiring%20one%20of%20your%20services." target="_blank">
                         <img src="images/logo-wasap.png" width="50" height="50" />
                     </a>
