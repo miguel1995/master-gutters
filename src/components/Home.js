@@ -17,7 +17,6 @@ class Home extends Component {
 
 
             <div className="App">
-                <div class="parallax"></div>
 
                 <Row>
                     <Col md={12}>
@@ -39,6 +38,9 @@ class Home extends Component {
                                     backgroundColor: "rgba(0, 0, 0, 0.4)"
                                 }}>
                                     <h1>MASTER GUTTERS</h1>
+                                    <h6 style={{
+                                        fontStyle:"italic"
+                                    }}>USA</h6>
                                     <p>Call today at 770-203-5897 to request a free estimate on gutters, gutter covers, fascia or soffit replacements.</p>
                                     <Link to="/contactus">
                                         <Button variant="warning"
@@ -66,6 +68,9 @@ class Home extends Component {
 
                                 }}>
                                     <h1>MASTER GUTTERS</h1>
+                                    <h6 style={{
+                                        fontStyle:"italic"
+                                    }}>USA</h6>
                                     <p>Call today at 770-203-5897 to request a free estimate on gutters, gutter covers, fascia or soffit replacements.</p>
                                     <Link to="/contactus">
 
@@ -94,6 +99,9 @@ class Home extends Component {
                                 }}>
 
                                     <h1>MASTER GUTTERS</h1>
+                                    <h6 style={{
+                                        fontStyle:"italic"
+                                    }}>USA</h6>
                                     <p>Call today at 770-203-5897 to request a free estimate on gutters, gutter covers, fascia or soffit replacements.</p>
                                     <Link to="/contactus">
                                         <Button variant="warning"
